@@ -60,3 +60,12 @@ button:hover {
 .tetiary-button {
     background-color: transparent;
 }
+
+@keyframes DropDown {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}

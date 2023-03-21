@@ -1,0 +1,41 @@
+.Search {
+    // background-image: url("../assets//images/background.jpg");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // height: 400px;
+    // border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 45%;
+    min-width: 400px;
+    margin: 40px auto;
+    animation: DropDown 400ms ease-in-out forwards;
+    transform-origin: top center;
+    input {
+        width: 100%;
+        height: 50px;
+        border-radius: 16px;
+        border: 1px solid lightgray;
+        outline-color: var(--text-color-primary);
+        padding: 0 20px;
+        padding-right: 40px;
+        font-size: 1.5rem;
+    }
+
+    button {
+        position: absolute;
+        right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0 12px;
+        .icon {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
