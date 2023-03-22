@@ -69,3 +69,12 @@ button:hover {
         transform: scaleY(1);
     }
 }
+
+@keyframes RightToLeft {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0;
+    }
+}

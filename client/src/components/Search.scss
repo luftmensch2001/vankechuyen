@@ -10,7 +10,8 @@
     justify-content: center;
     position: relative;
     width: 45%;
-    min-width: 400px;
+    min-width: 350px;
+    max-width: 90%;
     margin: 40px auto;
     animation: DropDown 400ms ease-in-out forwards;
     transform-origin: top center;
